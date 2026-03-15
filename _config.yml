@@ -1,6 +1,6 @@
-name: 陈天宇 | Chen Tianyu
-url: https://Cty66666666.github.io/ 
-baseurl: ""  
+name: "陈天宇 | Chen Tianyu"
+url: https://Cty66666666.github.io/
+baseurl: ""
 
 exclude: [bibble, README.md, Makefile, screenshot.png, .gitignore, .gitmodules]
 
@@ -9,39 +9,21 @@ highlighter: pygments
 permalink: /blog/:year/:month/:day/:title.html
 encoding: utf-8
 
-# 个人简介
-title: 陈天宇 | 岭南大学研究生
-description: >-
-  陈天宇，岭南大学融合科技电子计算机硕士研究生，专注于人工智能与数据科学研究。
-  热爱开源技术与学术分享，致力于探索技术与社会的交叉领域，用代码解决实际问题。
-author: 陈天宇 Chen Tianyu
-email: tianyuchen2@ln.hk  # 替换为你的岭南大学邮箱
-github_username: Cty66666666  # 你的 GitHub 用户名
+# 5. 个人详细介绍
+title: "陈天宇 - 岭南大学研究生"
+description: "陈天宇，岭南大学融合科技电子计算机硕士研究生，深耕人工智能与数据科学领域，热爱开源技术与学术分享。"
+author: "陈天宇"
+email: "your-email@ln.edu.hk" # 替换为你的邮箱
+github_username: "Cty66666666" # 替换为你的GitHub用户名
 
-# 人员/分类页面（适配个人主页）
+# 6. 页面分类
 roles:
   - key: about
-    name: 关于我 About Me
-  - key: education
-    name: 教育背景 Education
+    name: "关于我 About Me"
   - key: research
-    name: 研究方向 Research
-  - key: publications
-    name: 学术成果 Publications
+    name: "研究方向 Research"
   - key: projects
-    name: 项目 Projects
-  - key: contact
-    name: 联系方式 Contact
+    name: "项目 Projects"
 
-# 首页新闻/动态数量
-front_page_news: 10  # 适当增加数量让首页更饱满
-
-# 分页设置（可选，让博客列表更整洁）
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-# 主题/插件设置（保持兼容）
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
+# 7. 首页新闻数量
+front_page_news: 8
